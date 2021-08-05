@@ -1,0 +1,167 @@
+body {
+  /*
+  set font-size to 80%;
+  set font-family to "Courier New", Courier, monospace;
+  set letter-spacing to 0.15em;
+  change background-color to #efefef;
+  */
+}
+#page {
+  /*
+  set max-width to 940px;
+  and set min-width to 720px;
+  set margin top 10px, right auto, bottom 10px, left  auto. use Shorthand
+  set padding to all sides  20px;
+  set border to 4px double #000;
+  change background-color to #ffffff;
+  */
+}
+#logo {
+  /*
+  set  width to 150px;
+  set margin to top 10px, right auto, bottom 25px, left auto. use Shorthand
+  */
+}
+
+
+ul {
+  /*
+  set width to 570px;
+  set padding to 15px;
+  set margin to top 0px right auto bottom 0px left auto; use Shorthand
+  set border-top to 2px solid #000;
+  set border-bottom to 1px solid #000;
+   text-align to center;
+   */
+}
+li {
+  /*
+  set display to inline;
+  set margin to top 0px right 3px;
+  */
+}
+p {
+  /*
+  set text-align to center;
+  set width to 600px;
+  set margin to 20px auto 20px auto;
+  set font-weight to normal;
+  */
+}
+a {
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 6px 18px 5px 18px;
+}
+
+a:hover, a.on {
+  color: #cc3333;
+  background-color: #ffffff;
+}
+
+  /*Style For sale.html */
+
+table{
+  /*
+  set  width to 60%;
+  set margin-left to auto and set margin-right to auto;
+  */
+}
+
+  th {
+    /*
+    set padding-top to 16px;
+    set border-bottom to 1px solid #0088dd;
+    set text-align to center;
+    change color to #0088dd;
+    set font-weight to normal; */
+  }
+  td {
+    /*
+    set padding-top to 8px;
+    set min-width to 150px and min-height to 200px;
+    set vertical-align to top;
+    align text to the right;
+    set line-height: 1.4em; */
+  }
+
+
+  td.description {
+
+    /*
+    align text to center:
+    set padding to 5px;
+    set margin to 0px; */
+  }
+
+    div.polaroid {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: whitesmoke;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-bottom: 25px;
+      margin-top: 25px;
+    }
+
+    div.container {
+
+      /*
+      align text to center:
+      set padding:top 10px right 20px; use Shorthand
+
+      */
+    }
+
+    /*Style For contact.html */
+
+
+form{
+    /*
+    set margin to 15px;
+    set width to 60%;
+    set margin-left to auto;
+    set margin-right to auto;
+     */
+}
+
+    input[type=text] {
+    /*
+    set  width to 100%;
+    set padding top 12px right 20px;
+    set margin top 8px right 0;
+    set box-sizing: border-box;
+    set border: 2px solid lightslategray;
+    */
+
+}
+
+textarea {
+    /*
+    set width to 100%;
+    set height: 150px;
+    set padding to top 12px, right 20px; use Shorthand
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid lightslategray;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    */
+}
+
+ input[type=submit]{
+    /*
+    set width to 100%;
+    change background-color to lightslategray;
+    set border to none;
+    change color to white;
+    set padding to 16px 32px;
+    text-decoration: none;
+    set margin: 4px 2px;
+    cursor: pointer;
+
+    */
+}
