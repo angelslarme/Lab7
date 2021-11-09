@@ -6,7 +6,7 @@ body {
   change background-color to #efefef;
   */
   font-size: 80%;
-  font-family: "courier new", Courier, monospace;
+  font-family: sans-serif;
   letter-spacing: 0.15em;
   background-color: #efefef;
 }
